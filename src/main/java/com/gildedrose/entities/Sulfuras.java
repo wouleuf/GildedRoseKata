@@ -1,7 +1,5 @@
 package com.gildedrose.entities;
 
-import com.gildedrose.Item;
-
 public class Sulfuras extends ItemModel{
 
     protected void updateExpired(Item item) {

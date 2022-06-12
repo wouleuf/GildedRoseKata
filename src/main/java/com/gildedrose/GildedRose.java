@@ -1,9 +1,6 @@
 package com.gildedrose;
 
-import com.gildedrose.entities.AgedBrie;
-import com.gildedrose.entities.BackStage;
-import com.gildedrose.entities.ItemModel;
-import com.gildedrose.entities.Sulfuras;
+import com.gildedrose.entities.*;
 
 class GildedRose {
     Item[] items;
@@ -28,6 +25,9 @@ class GildedRose {
         }
         if (item.name.equals("Backstage passes to a TAFKAL80ETC concert")) {
             return new BackStage();
+        }
+        if (item.name.equals("Conjured")){
+            return new Conjured();
         }
         return new ItemModel();
     }

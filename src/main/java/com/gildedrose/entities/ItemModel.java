@@ -1,7 +1,5 @@
 package com.gildedrose.entities;
 
-import com.gildedrose.Item;
-
 public class ItemModel {
 
     public static final int LOWEST_POSSIBLE_QUALITY = 0;

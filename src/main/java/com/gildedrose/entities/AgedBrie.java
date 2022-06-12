@@ -1,7 +1,5 @@
 package com.gildedrose.entities;
 
-import com.gildedrose.Item;
-
 public class AgedBrie extends ItemModel {
 
     protected void updateExpired(Item item) {
