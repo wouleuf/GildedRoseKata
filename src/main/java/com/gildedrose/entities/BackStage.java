@@ -11,11 +11,11 @@ public class BackStage extends ItemModel{
     protected void updateQuality(Item item) {
         incrementQuality(item);
 
-        if (item.sellIn <= 10) {
+        if (item.sellIn <= NUMBER_DAYS_REMAINING_OR_LESS_INCREASING_BY_TWO) {
             incrementQuality(item);
         }
 
-        if (item.sellIn <= 5) {
+        if (item.sellIn <= NUMBER_DAYS_REMAINING_OR_LESS_INCREASING_BY_THREE) {
             incrementQuality(item);
         }
     }

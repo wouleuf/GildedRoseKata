@@ -26,7 +26,7 @@ class GildedRose {
         if (item.name.equals("Aged Brie")) {
             return new AgedBrie();
         }
-        if (item.name.equals("Backstage passes")) {
+        if (item.name.equals("Backstage passes to a TAFKAL80ETC concert")) {
             return new BackStage();
         }
         return new ItemModel();

@@ -7,6 +7,8 @@ public class ItemModel {
     public static final int LOWEST_POSSIBLE_QUALITY = 0;
     public static final int HIGHEST_POSSIBLE_QUALITY = 50;
     public static final int UNITY_UPDATE = 1;
+    public static final int NUMBER_DAYS_REMAINING_OR_LESS_INCREASING_BY_TWO = 10;
+    public static final int NUMBER_DAYS_REMAINING_OR_LESS_INCREASING_BY_THREE = 5;
 
     protected void incrementQuality(Item item) {
         if (item.quality < HIGHEST_POSSIBLE_QUALITY) {
